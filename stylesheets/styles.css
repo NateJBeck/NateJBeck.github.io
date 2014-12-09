@@ -110,49 +110,48 @@ header p.view small {
 }
 
 .social-media li {
-  position: absolute;
   bottom: 5px;
+  display: inline;
+  float: right;
+  position: absolute;
   right: 20px;
   width: 50px;
-  float: right;
-  display: inline;
 }
 
-.email {
-  position: absolute;
+img.email {
   bottom: 6px;
+  display: inline;
+  float: right;
+  position: absolute;
   right: 175px;
   width: 48px;
-  float: right;
-  display: inline;
 }
 
 .linked-in {
-  position: absolute;
   bottom: 7px;
+  display: inline;
+  float: right;
+  position: absolute;
   right: 118px;
   width: 46px;
-  float: right;
-  display: inline;
 }
 
 .blog {
-  position: absolute;
   bottom: 7px;
+  display: inline;
+  float: right;
+  position: absolute;
   right: 60px;
   width: 46px;
-  float: right;
-  display: inline;
 }
 
 .twitter {
-  position: absolute;
   bottom: 5px;
-  width: 50px;
-  float: right;
   display: inline;
+  float: right;
+  position: absolute;
+  width: 50px;
 }
-
 
 section {
   padding: 15px 20px;
@@ -317,9 +316,6 @@ footer p + p {
   }
 }
 @media print, screen and (max-width:580px) {
-  header ul {
-    display: none;
-  }
 
   header p.view {
     display: block;
