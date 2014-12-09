@@ -102,7 +102,7 @@ header p.view small {
   border: 5px solid black;
   float: left;
   margin-right: 2em;
-  width: 120px;
+  width: 140px;
 }
 
 .social-media {
@@ -118,7 +118,17 @@ header p.view small {
   width: 50px;
 }
 
-img.email {
+.github {
+  bottom: 7px;
+  display: inline;
+  float: right;
+  position: absolute;
+  right: 235px;
+  width: 45px;
+  border-radius: 4px;
+
+}
+.email {
   bottom: 6px;
   display: inline;
   float: right;
